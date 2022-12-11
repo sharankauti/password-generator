@@ -1,0 +1,37 @@
+.passwordWrap {
+    width: 50%;
+    border-radius: 10px;
+    background-color: #6554c0;
+    padding: 30px;
+}
+.passwordWrap > h2{
+    color: #FFFFFF;
+    font-size: 30px;
+    font-family: monospace;
+}
+#passwordGenerator .form-group input{
+    padding: 20px !important;
+    border: none!important;
+    color: #000000!important;
+}
+#passwordGenerator .form-group input:focus{
+    box-shadow: none!important;
+}
+.buttonCommon{
+    background-color: #FFFFFF!important;
+    color: #000000;
+    font-size: 16px;
+    font-family: monospace;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+@media(max-width:736px){
+    .passwordWrap {
+        width: 100%;
+        padding: 20px;
+    }
+    .passwordWrap > h2 ,.HeadingText{
+        font-size: 25px;
+    }
+}

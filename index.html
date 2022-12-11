@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Password Generator</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://kit.fontawesome.com/117117f437.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+</head>
+
+<body class="bg-light">
+    <div class="container  p-4">
+        <h1 class="text-center HeadingText text-uppercase">Simple password Generator</h1>
+        <div class="row">
+            <div class="col-12 d-flex align-items-center justify-content-center">
+                <div class="container py-5">
+                  <div class="passwordWrap mx-auto">
+                        <h2 class="mb-4 mb-sm-4 mb-md-5 mb-lg-5">Password Generator(random)</h2>
+                        <form id="passwordGenerator">
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="passwordField" aria-describedby="emailHelp"  >
+                                <div class="buttonWrap d-flex align-items-center justify-content-between my-4">
+                                    <button type="button" class="btn buttonCommon" id="click">Click to Generate</button>
+                                    <button type="button" class="btn buttonCommon" id="copy">Copy</button>
+                                </div>
+                              </div>
+                        </form>
+                  </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+  <script src="./js/password.js"></script>
+</body>
+
+</html>
